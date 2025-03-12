@@ -15,10 +15,10 @@
                 "redhat.vscode-yaml",
                 "PKief.material-icon-theme" // Added Material Icon Theme extension
             ],
-        "settings": {
-            "workbench.iconTheme": "material-icon-theme"
+            "settings": {
+                "workbench.iconTheme": "material-icon-theme"
             }
-        },
+        }
+    },
     "postCreateCommand": "npm install && npm install -g @angular/cli"
-}
 }
