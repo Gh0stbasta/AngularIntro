@@ -1,0 +1,25 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.vscode-typescript-tslint-plugin",
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                "ms-azuretools.vscode-docker",
+                "ms-vscode-remote.remote-containers",
+                "angular.ng-template",
+                "eamodio.gitlens",
+                "mhutchie.git-graph",
+                "ms-vsliveshare.vsliveshare",
+                "redhat.vscode-yaml",
+                "PKief.material-icon-theme" // Added Material Icon Theme extension
+            ]
+        }
+    },
+    "postCreateCommand": [
+        "npm install",
+        "npm install -g @angular/cli",
+        "ng serve --open"
+    ]
+}
