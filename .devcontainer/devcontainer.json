@@ -1,4 +1,5 @@
 {
+    "name": "IBB-Free",
     "image": "mcr.microsoft.com/devcontainers/universal:2",
     "customizations": {
         "vscode": {
@@ -9,9 +10,6 @@
                 "ms-azuretools.vscode-docker",
                 "ms-vscode-remote.remote-containers",
                 "angular.ng-template",
-                "eamodio.gitlens",
-                "mhutchie.git-graph",
-                "ms-vsliveshare.vsliveshare",
                 "redhat.vscode-yaml",
                 "PKief.material-icon-theme" // Added Material Icon Theme extension
             ],
