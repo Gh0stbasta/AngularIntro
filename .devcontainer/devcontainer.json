@@ -2,9 +2,6 @@
     "image": "mcr.microsoft.com/devcontainers/universal:2",
     "customizations": {
         "vscode": {
-            "settings": {
-            "workbench.iconTheme": "material-icon-theme"
-            },
             "extensions": [
                 "ms-vscode.vscode-typescript-tslint-plugin",
                 "dbaeumer.vscode-eslint",
@@ -17,7 +14,11 @@
                 "ms-vsliveshare.vsliveshare",
                 "redhat.vscode-yaml",
                 "PKief.material-icon-theme" // Added Material Icon Theme extension
-            ]
+            ],
+        "settings": {
+            "workbench.iconTheme": "material-icon-theme"
+            }
         },
     "postCreateCommand": "npm install && npm install -g @angular/cli"
+}
 }
